@@ -1,3 +1,5 @@
 {
-
+  "network" : {
+    "baseURL" : "NSURL(https:youtube.com)"
+  }
 }

@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11A87509A686F5455DA2D792 /* LMSDataClientAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A875ACB88D3A809E7EFE23 /* LMSDataClientAssembly.m */; };
 		11A87BAC08A865388A8210CA /* LMSRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A87DD27DC4023EC2B6EFC9 /* LMSRootViewController.m */; };
 		11A87C774E5A22B0893ECDA8 /* LMSApplicationAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A8771E4D5BF1C35885AFBB /* LMSApplicationAssembly.m */; };
+		11A87CA8290FE9562E0DE9F3 /* LMSDataClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A87DF02F94B48EEC483A9F /* LMSDataClient.m */; };
 		11A87CC91642F986E0509C19 /* Configuration.json in Resources */ = {isa = PBXBuildFile; fileRef = 11A874D2A04BFF5627FCB0CE /* Configuration.json */; };
+		11A87CF5365BB1E8847702E3 /* LMSNetworkBackend.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A87A50FBBE368B43801410 /* LMSNetworkBackend.m */; };
 		11A87DD9F99E3AB6474D2EBE /* LMSViewControllerAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A8710330D7A3EF85E450FA /* LMSViewControllerAssembly.m */; };
 		11A87E53B7FC5EA6989F20B1 /* LMSViewModelAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A879A651C8C18E1C0DEBC2 /* LMSViewModelAssembly.m */; };
 		11A87EBA5049703ACD79C96E /* LMSRootViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A87ACF13BA9DE5C2CE5709 /* LMSRootViewController.storyboard */; };
@@ -43,13 +46,20 @@
 		11A8710330D7A3EF85E450FA /* LMSViewControllerAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSViewControllerAssembly.m; sourceTree = "<group>"; };
 		11A87375D51A28107693A459 /* LMSRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSRootViewController.h; sourceTree = "<group>"; };
 		11A874D2A04BFF5627FCB0CE /* Configuration.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Configuration.json; sourceTree = "<group>"; };
+		11A875ACB88D3A809E7EFE23 /* LMSDataClientAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSDataClientAssembly.m; sourceTree = "<group>"; };
+		11A875CFFE338850BEC8817D /* LMSNetworkBackend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSNetworkBackend.h; sourceTree = "<group>"; };
 		11A875E9A55FEA3F2D5D2CA3 /* LMSViewControllerAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSViewControllerAssembly.h; sourceTree = "<group>"; };
 		11A8771E4D5BF1C35885AFBB /* LMSApplicationAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSApplicationAssembly.m; sourceTree = "<group>"; };
+		11A877306A699F78BEA0CBD6 /* LMSDataClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSDataClient.h; sourceTree = "<group>"; };
 		11A877354682937B4FA73880 /* LMSViewModelAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSViewModelAssembly.h; sourceTree = "<group>"; };
+		11A8774001C9D699D10ACD3D /* LMSDataClientAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSDataClientAssembly.h; sourceTree = "<group>"; };
+		11A878C6411ED86682DF7C7A /* LMSDataClientSupportedProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSDataClientSupportedProtocols.h; sourceTree = "<group>"; };
 		11A879A651C8C18E1C0DEBC2 /* LMSViewModelAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSViewModelAssembly.m; sourceTree = "<group>"; };
+		11A87A50FBBE368B43801410 /* LMSNetworkBackend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSNetworkBackend.m; sourceTree = "<group>"; };
 		11A87ACF13BA9DE5C2CE5709 /* LMSRootViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LMSRootViewController.storyboard; sourceTree = "<group>"; };
 		11A87C0F0F1D1C3655729D4B /* LMSApplicationAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSApplicationAssembly.h; sourceTree = "<group>"; };
 		11A87DD27DC4023EC2B6EFC9 /* LMSRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSRootViewController.m; sourceTree = "<group>"; };
+		11A87DF02F94B48EEC483A9F /* LMSDataClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSDataClient.m; sourceTree = "<group>"; };
 		2286062FBD08A43836ADE3C0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		B494163C0A2E070383E6E1AC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB7DA0AC9EEA1A9204CF0B6A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -94,12 +104,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11A872BD7203B68CA25A9655 /* Backends */ = {
+			isa = PBXGroup;
+			children = (
+				11A87A50FBBE368B43801410 /* LMSNetworkBackend.m */,
+				11A875CFFE338850BEC8817D /* LMSNetworkBackend.h */,
+			);
+			path = Backends;
+			sourceTree = "<group>";
+		};
 		11A87483FD2B38C9BB418AF9 /* Assemblies */ = {
 			isa = PBXGroup;
 			children = (
 				11A8771E4D5BF1C35885AFBB /* LMSApplicationAssembly.m */,
 				11A87C0F0F1D1C3655729D4B /* LMSApplicationAssembly.h */,
 				11A8751CA8395C9444D99B14 /* ViewControllers */,
+				11A875ACB88D3A809E7EFE23 /* LMSDataClientAssembly.m */,
+				11A8774001C9D699D10ACD3D /* LMSDataClientAssembly.h */,
 			);
 			path = Assemblies;
 			sourceTree = "<group>";
@@ -131,8 +152,17 @@
 				11A87D4214FA77167163F727 /* ViewControllers */,
 				11A87483FD2B38C9BB418AF9 /* Assemblies */,
 				11A879D402BCA734DB3CFED2 /* Configuration */,
+				11A87B0BDFCBD1B96DA6FD0D /* DataClient */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		11A879C69141007E6012318A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				11A878C6411ED86682DF7C7A /* LMSDataClientSupportedProtocols.h */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		11A879D402BCA734DB3CFED2 /* Configuration */ = {
@@ -141,6 +171,17 @@
 				11A874D2A04BFF5627FCB0CE /* Configuration.json */,
 			);
 			path = Configuration;
+			sourceTree = "<group>";
+		};
+		11A87B0BDFCBD1B96DA6FD0D /* DataClient */ = {
+			isa = PBXGroup;
+			children = (
+				11A87DF02F94B48EEC483A9F /* LMSDataClient.m */,
+				11A877306A699F78BEA0CBD6 /* LMSDataClient.h */,
+				11A879C69141007E6012318A /* Protocols */,
+				11A872BD7203B68CA25A9655 /* Backends */,
+			);
+			path = DataClient;
 			sourceTree = "<group>";
 		};
 		11A87D4214FA77167163F727 /* ViewControllers */ = {
@@ -420,6 +461,9 @@
 				11A87C774E5A22B0893ECDA8 /* LMSApplicationAssembly.m in Sources */,
 				11A87DD9F99E3AB6474D2EBE /* LMSViewControllerAssembly.m in Sources */,
 				11A87E53B7FC5EA6989F20B1 /* LMSViewModelAssembly.m in Sources */,
+				11A87CA8290FE9562E0DE9F3 /* LMSDataClient.m in Sources */,
+				11A87CF5365BB1E8847702E3 /* LMSNetworkBackend.m in Sources */,
+				11A87509A686F5455DA2D792 /* LMSDataClientAssembly.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
