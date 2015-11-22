@@ -9,6 +9,7 @@
 #import "LMSViewModelAssembly.h"
 #import "LMSSearchListViewController.h"
 #import "TyphoonStoryboard.h"
+#import "LMSVideoPreviewViewController.h"
 
 
 @implementation LMSViewControllerAssembly {
@@ -23,6 +24,12 @@
 - (TyphoonDefinition *)searchListViewController {
     return [TyphoonDefinition withClass:[LMSSearchListViewController class] configuration:^(TyphoonDefinition *definition) {
         [definition injectProperty:@selector(viewModel) with:self.viewModelAssembly.searchListViewModel];
+    }];
+}
+
+- (TyphoonDefinition *)videoPreviewViewController {
+    return [TyphoonDefinition withClass:[LMSVideoPreviewViewController class] configuration:^(TyphoonDefinition *definition) {
+        [definition injectProperty:@selector(viewModel) with:self.viewModelAssembly.videoPreviewViewModel];
     }];
 }
 

@@ -46,7 +46,7 @@
         if (!searchPhrase || [searchPhrase isEqualToString:@""]) {
             return [RACSignal return:nil];
         }
-        return [[self.dataClient searchVideoForQuery:searchPhrase] replayLazily];
+        return [[[self.dataClient searchVideoForQuery:searchPhrase] replayLazily] takeUntil:searchPhraseSignal];
     }];
     // Disable loading
     searchPhraseSignal = [[searchPhraseSignal doNext:^(id x) {

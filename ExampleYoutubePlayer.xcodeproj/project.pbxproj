@@ -11,14 +11,17 @@
 		11A8746DF78FF5F965BD952F /* LMSSearchListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A87725DC2EFDA7F205618A /* LMSSearchListViewController.storyboard */; };
 		11A87509A686F5455DA2D792 /* LMSDataClientAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A875ACB88D3A809E7EFE23 /* LMSDataClientAssembly.m */; };
 		11A8752E7780800CB274260A /* UISearchBar+RACAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A87E06442FFB697BE2309C /* UISearchBar+RACAdditions.m */; };
+		11A875E6D3EC42942E3E4889 /* LMSVideoPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A873FEFBBB827F8343C766 /* LMSVideoPreviewViewController.m */; };
 		11A8785BA0BEB09B1AECB248 /* LMSVideoSearchEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A872F6B5945D5B48456824 /* LMSVideoSearchEntity.m */; };
 		11A87BAC08A865388A8210CA /* LMSRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A87DD27DC4023EC2B6EFC9 /* LMSRootViewController.m */; };
+		11A87BAE295A1E9065FC0FF5 /* LMSVideoPreviewViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A87C173F3D8E0A3DA04E0D /* LMSVideoPreviewViewModel.m */; };
 		11A87C0683C1FC699D7F57CB /* LMSSearchListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A87A14980388C31C5F7427 /* LMSSearchListViewController.m */; };
 		11A87C774E5A22B0893ECDA8 /* LMSApplicationAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A8771E4D5BF1C35885AFBB /* LMSApplicationAssembly.m */; };
 		11A87CA8290FE9562E0DE9F3 /* LMSDataClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A87DF02F94B48EEC483A9F /* LMSDataClient.m */; };
 		11A87CC91642F986E0509C19 /* Configuration.json in Resources */ = {isa = PBXBuildFile; fileRef = 11A874D2A04BFF5627FCB0CE /* Configuration.json */; };
 		11A87CF5365BB1E8847702E3 /* LMSYoutubeBackend.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A87A50FBBE368B43801410 /* LMSYoutubeBackend.m */; };
 		11A87DD9F99E3AB6474D2EBE /* LMSViewControllerAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A8710330D7A3EF85E450FA /* LMSViewControllerAssembly.m */; };
+		11A87DF501DB32F6316020C4 /* LMSVideoPreviewViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A874C13882BCD42F0135C7 /* LMSVideoPreviewViewController.storyboard */; };
 		11A87E53B7FC5EA6989F20B1 /* LMSViewModelAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A879A651C8C18E1C0DEBC2 /* LMSViewModelAssembly.m */; };
 		11A87EBA5049703ACD79C96E /* LMSRootViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A87ACF13BA9DE5C2CE5709 /* LMSRootViewController.storyboard */; };
 		DFB7BB7D4AE76FE2573024A8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B494163C0A2E070383E6E1AC /* libPods.a */; };
@@ -51,13 +54,17 @@
 		11A8710330D7A3EF85E450FA /* LMSViewControllerAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSViewControllerAssembly.m; sourceTree = "<group>"; };
 		11A872F6B5945D5B48456824 /* LMSVideoSearchEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSVideoSearchEntity.m; sourceTree = "<group>"; };
 		11A87375D51A28107693A459 /* LMSRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSRootViewController.h; sourceTree = "<group>"; };
+		11A873FEFBBB827F8343C766 /* LMSVideoPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSVideoPreviewViewController.m; sourceTree = "<group>"; };
 		11A874337C1FBA8C9E9DE8F7 /* LMSYoutubeAPIProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSYoutubeAPIProtocol.h; sourceTree = "<group>"; };
+		11A874C13882BCD42F0135C7 /* LMSVideoPreviewViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LMSVideoPreviewViewController.storyboard; sourceTree = "<group>"; };
 		11A874D2A04BFF5627FCB0CE /* Configuration.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Configuration.json; sourceTree = "<group>"; };
 		11A8759F75CEB78D4E834E35 /* LMSVideoSearchEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSVideoSearchEntity.h; sourceTree = "<group>"; };
 		11A875ACB88D3A809E7EFE23 /* LMSDataClientAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSDataClientAssembly.m; sourceTree = "<group>"; };
 		11A875C6C527968EE4D917AC /* UISearchBar+RACAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISearchBar+RACAdditions.h"; sourceTree = "<group>"; };
 		11A875CFFE338850BEC8817D /* LMSYoutubeBackend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSYoutubeBackend.h; sourceTree = "<group>"; };
+		11A875D27ECA9ADBB5B251D5 /* LMSVideoPreviewViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSVideoPreviewViewModel.h; sourceTree = "<group>"; };
 		11A875E9A55FEA3F2D5D2CA3 /* LMSViewControllerAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSViewControllerAssembly.h; sourceTree = "<group>"; };
+		11A8769DCEB040B050E0D8D5 /* LMSVideoPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSVideoPreviewViewController.h; sourceTree = "<group>"; };
 		11A8771E4D5BF1C35885AFBB /* LMSApplicationAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSApplicationAssembly.m; sourceTree = "<group>"; };
 		11A87725DC2EFDA7F205618A /* LMSSearchListViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LMSSearchListViewController.storyboard; sourceTree = "<group>"; };
 		11A877306A699F78BEA0CBD6 /* LMSDataClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSDataClient.h; sourceTree = "<group>"; };
@@ -69,6 +76,7 @@
 		11A87A50FBBE368B43801410 /* LMSYoutubeBackend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSYoutubeBackend.m; sourceTree = "<group>"; };
 		11A87ACF13BA9DE5C2CE5709 /* LMSRootViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LMSRootViewController.storyboard; sourceTree = "<group>"; };
 		11A87C0F0F1D1C3655729D4B /* LMSApplicationAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSApplicationAssembly.h; sourceTree = "<group>"; };
+		11A87C173F3D8E0A3DA04E0D /* LMSVideoPreviewViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSVideoPreviewViewModel.m; sourceTree = "<group>"; };
 		11A87C1C969A2222F4419825 /* LMSSearchListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSSearchListViewModel.m; sourceTree = "<group>"; };
 		11A87DD27DC4023EC2B6EFC9 /* LMSRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSRootViewController.m; sourceTree = "<group>"; };
 		11A87DF02F94B48EEC483A9F /* LMSDataClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSDataClient.m; sourceTree = "<group>"; };
@@ -139,6 +147,15 @@
 			path = Backends;
 			sourceTree = "<group>";
 		};
+		11A873FB485F504596310423 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				11A87C173F3D8E0A3DA04E0D /* LMSVideoPreviewViewModel.m */,
+				11A875D27ECA9ADBB5B251D5 /* LMSVideoPreviewViewModel.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		11A874002F6516638B97E26B /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -169,6 +186,17 @@
 				11A877354682937B4FA73880 /* LMSViewModelAssembly.h */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		11A875966862FC1EB52E4EBA /* VideoPreview */ = {
+			isa = PBXGroup;
+			children = (
+				11A873FEFBBB827F8343C766 /* LMSVideoPreviewViewController.m */,
+				11A8769DCEB040B050E0D8D5 /* LMSVideoPreviewViewController.h */,
+				11A874C13882BCD42F0135C7 /* LMSVideoPreviewViewController.storyboard */,
+				11A873FB485F504596310423 /* Model */,
+			);
+			path = VideoPreview;
 			sourceTree = "<group>";
 		};
 		11A876621B54B31D8EB504BA /* RootView */ = {
@@ -245,6 +273,7 @@
 			children = (
 				11A876621B54B31D8EB504BA /* RootView */,
 				11A870EC6A7111336C9FA2E7 /* SearchList */,
+				11A875966862FC1EB52E4EBA /* VideoPreview */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -441,6 +470,7 @@
 				11A87EBA5049703ACD79C96E /* LMSRootViewController.storyboard in Resources */,
 				11A87CC91642F986E0509C19 /* Configuration.json in Resources */,
 				11A8746DF78FF5F965BD952F /* LMSSearchListViewController.storyboard in Resources */,
+				11A87DF501DB32F6316020C4 /* LMSVideoPreviewViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,6 +556,8 @@
 				11A873C48278641884BEEA0A /* LMSSearchListViewModel.m in Sources */,
 				11A8785BA0BEB09B1AECB248 /* LMSVideoSearchEntity.m in Sources */,
 				11A8752E7780800CB274260A /* UISearchBar+RACAdditions.m in Sources */,
+				11A875E6D3EC42942E3E4889 /* LMSVideoPreviewViewController.m in Sources */,
+				11A87BAE295A1E9065FC0FF5 /* LMSVideoPreviewViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

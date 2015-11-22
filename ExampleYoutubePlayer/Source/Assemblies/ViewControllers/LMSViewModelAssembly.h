@@ -15,4 +15,5 @@
 
 - (TyphoonDefinition *)searchListViewModel;
 
+- (TyphoonDefinition *)videoPreviewViewModel;
 @end

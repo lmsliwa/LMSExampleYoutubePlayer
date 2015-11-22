@@ -23,6 +23,7 @@ PODS:
   - AFNetworking/UIKit (2.5.4):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - HCYoutubeParser (0.0.4)
   - ReactiveCocoa (2.5):
     - ReactiveCocoa/UI (= 2.5)
   - ReactiveCocoa/Core (2.5):
@@ -45,6 +46,7 @@ PODS:
 DEPENDENCIES:
   - AFNetworking (~> 2.5)
   - AFNetworking-RACExtensions (~> 0.1)
+  - HCYoutubeParser (~> 0.0.4)
   - ReactiveCocoa (~> 2.4)
   - Realm (~> 0.96)
   - Realm+JSON (~> 0.2)
@@ -54,6 +56,7 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
   AFNetworking-RACExtensions: a043c6b492fa892395ceb9d20bc4c94e96e08a57
+  HCYoutubeParser: 490db7db2997a293ace484a5d63419b3b053d95f
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
   Realm: 3ce8448151c571e90b85002d984d7f93f54fc8a3
   Realm+JSON: dedc9ca5062b239c80d5bd779efe8aa7c1fdeef7

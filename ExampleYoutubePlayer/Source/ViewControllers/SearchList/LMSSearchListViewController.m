@@ -12,6 +12,9 @@
 #import "RACSignal+Operations.h"
 #import "RACEXTScope.h"
 #import "NSObject+RACDeallocating.h"
+#import "LMSVideoSearchEntity.h"
+#import "TyphoonStoryboard.h"
+#import "LMSVideoPreviewViewController.h"
 
 
 @implementation LMSSearchListViewController {
@@ -55,5 +58,18 @@
     }];
 }
 
+#pragma mark - Table view delegate
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    LMSVideoSearchEntity *entity = [self.viewModel itemForIndexPath:indexPath];
+   [self showVideoPreviewForEntity:entity];
+}
+
+- (void)showVideoPreviewForEntity:(LMSVideoSearchEntity *)entity {
+    TyphoonStoryboard *storyboard = [TyphoonStoryboard storyboardWithName:@"LMSVideoPreviewViewController" factory:[TyphoonComponentFactory factoryForResolvingFromXibs] bundle:nil];
+    LMSVideoPreviewViewController *cnt = [storyboard instantiateInitialViewController];
+    cnt.videoSearchEntity = entity;
+    [self presentViewController:cnt animated:YES completion:nil];
+}
 
 @end
