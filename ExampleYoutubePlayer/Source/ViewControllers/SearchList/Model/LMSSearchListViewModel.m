@@ -63,6 +63,12 @@
     self.tableListNeedReload = RACObserve(self, videoList);
 }
 
+#pragma mark - Public method
+
+- (id)itemForIndexPath:(NSIndexPath *)indexPath {
+    return self.videoList[indexPath.row];
+}
+
 #pragma mark - Table view datasource
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -75,7 +81,11 @@
     if (!cell) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:identifier];
     }
-    LMSVideoSearchEntity *entity =  self.videoList[indexPath.row];
+    LMSVideoSearchEntity *entity =  [self itemForIndexPath:indexPath];
+    return [self configureCell:cell withItem:entity];
+}
+
+- (UITableViewCell *)configureCell:(UITableViewCell *)cell withItem:(LMSVideoSearchEntity *)entity {
     cell.textLabel.text = entity.title;
     cell.detailTextLabel.text = entity.description;
     if (entity.thumbnail) {
