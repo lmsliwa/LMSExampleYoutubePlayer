@@ -4,9 +4,18 @@
 //
 
 #import "LMSViewModelAssembly.h"
+#import "LMSSearchListViewModel.h"
+#import "LMSDataClientAssembly.h"
 
 
 @implementation LMSViewModelAssembly {
 
 }
+
+- (TyphoonDefinition *)searchListViewModel {
+    return [TyphoonDefinition withClass:[LMSSearchListViewModel class] configuration:^(TyphoonDefinition *definition) {
+        [definition injectProperty:@selector(dataClient) with:self.dataClientAssembly.dataClient];
+    }];
+}
+
 @end

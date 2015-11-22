@@ -15,5 +15,6 @@
 @property (nonatomic, strong) LMSViewModelAssembly *viewModelAssembly;
 
 - (TyphoonDefinition *)rootViewController;
+- (TyphoonDefinition *)searchListViewController;
 
 @end

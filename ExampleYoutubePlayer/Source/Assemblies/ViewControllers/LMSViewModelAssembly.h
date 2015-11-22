@@ -6,6 +6,13 @@
 #import <Foundation/Foundation.h>
 #import "TyphoonAssembly.h"
 
+@class LMSDataClientAssembly;
+
 
 @interface LMSViewModelAssembly : TyphoonAssembly
+
+@property (nonatomic, strong) LMSDataClientAssembly *dataClientAssembly;
+
+- (TyphoonDefinition *)searchListViewModel;
+
 @end

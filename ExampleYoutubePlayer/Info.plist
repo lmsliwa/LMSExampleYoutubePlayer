@@ -7,6 +7,7 @@
 		<string>LMSApplicationAssembly</string>
 		<string>LMSViewControllerAssembly</string>
 		<string>LMSViewModelAssembly</string>
+		<string>LMSDataClientAssembly</string>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>

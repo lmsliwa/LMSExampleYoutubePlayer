@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11A873C48278641884BEEA0A /* LMSSearchListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A87C1C969A2222F4419825 /* LMSSearchListViewModel.m */; };
+		11A8746DF78FF5F965BD952F /* LMSSearchListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A87725DC2EFDA7F205618A /* LMSSearchListViewController.storyboard */; };
 		11A87509A686F5455DA2D792 /* LMSDataClientAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A875ACB88D3A809E7EFE23 /* LMSDataClientAssembly.m */; };
 		11A87BAC08A865388A8210CA /* LMSRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A87DD27DC4023EC2B6EFC9 /* LMSRootViewController.m */; };
+		11A87C0683C1FC699D7F57CB /* LMSSearchListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A87A14980388C31C5F7427 /* LMSSearchListViewController.m */; };
 		11A87C774E5A22B0893ECDA8 /* LMSApplicationAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A8771E4D5BF1C35885AFBB /* LMSApplicationAssembly.m */; };
 		11A87CA8290FE9562E0DE9F3 /* LMSDataClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A87DF02F94B48EEC483A9F /* LMSDataClient.m */; };
 		11A87CC91642F986E0509C19 /* Configuration.json in Resources */ = {isa = PBXBuildFile; fileRef = 11A874D2A04BFF5627FCB0CE /* Configuration.json */; };
@@ -50,16 +53,21 @@
 		11A875CFFE338850BEC8817D /* LMSNetworkBackend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSNetworkBackend.h; sourceTree = "<group>"; };
 		11A875E9A55FEA3F2D5D2CA3 /* LMSViewControllerAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSViewControllerAssembly.h; sourceTree = "<group>"; };
 		11A8771E4D5BF1C35885AFBB /* LMSApplicationAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSApplicationAssembly.m; sourceTree = "<group>"; };
+		11A87725DC2EFDA7F205618A /* LMSSearchListViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LMSSearchListViewController.storyboard; sourceTree = "<group>"; };
 		11A877306A699F78BEA0CBD6 /* LMSDataClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSDataClient.h; sourceTree = "<group>"; };
 		11A877354682937B4FA73880 /* LMSViewModelAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSViewModelAssembly.h; sourceTree = "<group>"; };
 		11A8774001C9D699D10ACD3D /* LMSDataClientAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSDataClientAssembly.h; sourceTree = "<group>"; };
 		11A878C6411ED86682DF7C7A /* LMSDataClientSupportedProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSDataClientSupportedProtocols.h; sourceTree = "<group>"; };
 		11A879A651C8C18E1C0DEBC2 /* LMSViewModelAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSViewModelAssembly.m; sourceTree = "<group>"; };
+		11A87A14980388C31C5F7427 /* LMSSearchListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSSearchListViewController.m; sourceTree = "<group>"; };
 		11A87A50FBBE368B43801410 /* LMSNetworkBackend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSNetworkBackend.m; sourceTree = "<group>"; };
 		11A87ACF13BA9DE5C2CE5709 /* LMSRootViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LMSRootViewController.storyboard; sourceTree = "<group>"; };
 		11A87C0F0F1D1C3655729D4B /* LMSApplicationAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSApplicationAssembly.h; sourceTree = "<group>"; };
+		11A87C1C969A2222F4419825 /* LMSSearchListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSSearchListViewModel.m; sourceTree = "<group>"; };
 		11A87DD27DC4023EC2B6EFC9 /* LMSRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSRootViewController.m; sourceTree = "<group>"; };
 		11A87DF02F94B48EEC483A9F /* LMSDataClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSDataClient.m; sourceTree = "<group>"; };
+		11A87E21A11148234493091E /* LMSSearchListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSSearchListViewController.h; sourceTree = "<group>"; };
+		11A87F38BF74357A654F0A4F /* LMSSearchListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSSearchListViewModel.h; sourceTree = "<group>"; };
 		2286062FBD08A43836ADE3C0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		B494163C0A2E070383E6E1AC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB7DA0AC9EEA1A9204CF0B6A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -104,6 +112,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11A870EC6A7111336C9FA2E7 /* SearchList */ = {
+			isa = PBXGroup;
+			children = (
+				11A87A14980388C31C5F7427 /* LMSSearchListViewController.m */,
+				11A87E21A11148234493091E /* LMSSearchListViewController.h */,
+				11A874002F6516638B97E26B /* Model */,
+				11A87725DC2EFDA7F205618A /* LMSSearchListViewController.storyboard */,
+			);
+			path = SearchList;
+			sourceTree = "<group>";
+		};
 		11A872BD7203B68CA25A9655 /* Backends */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +130,15 @@
 				11A875CFFE338850BEC8817D /* LMSNetworkBackend.h */,
 			);
 			path = Backends;
+			sourceTree = "<group>";
+		};
+		11A874002F6516638B97E26B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				11A87C1C969A2222F4419825 /* LMSSearchListViewModel.m */,
+				11A87F38BF74357A654F0A4F /* LMSSearchListViewModel.h */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		11A87483FD2B38C9BB418AF9 /* Assemblies */ = {
@@ -188,6 +216,7 @@
 			isa = PBXGroup;
 			children = (
 				11A876621B54B31D8EB504BA /* RootView */,
+				11A870EC6A7111336C9FA2E7 /* SearchList */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -383,6 +412,7 @@
 				EBFC0BF71C01FED500C1F5EF /* Assets.xcassets in Resources */,
 				11A87EBA5049703ACD79C96E /* LMSRootViewController.storyboard in Resources */,
 				11A87CC91642F986E0509C19 /* Configuration.json in Resources */,
+				11A8746DF78FF5F965BD952F /* LMSSearchListViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,6 +494,8 @@
 				11A87CA8290FE9562E0DE9F3 /* LMSDataClient.m in Sources */,
 				11A87CF5365BB1E8847702E3 /* LMSNetworkBackend.m in Sources */,
 				11A87509A686F5455DA2D792 /* LMSDataClientAssembly.m in Sources */,
+				11A87C0683C1FC699D7F57CB /* LMSSearchListViewController.m in Sources */,
+				11A873C48278641884BEEA0A /* LMSSearchListViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,7 +629,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ExampleYoutubePlayer/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LMSliwa.ExampleYoutubePlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -611,7 +643,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ExampleYoutubePlayer/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LMSliwa.ExampleYoutubePlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";

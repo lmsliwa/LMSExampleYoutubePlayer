@@ -7,6 +7,8 @@
 #import "TyphoonDefinition.h"
 #import "LMSRootViewController.h"
 #import "LMSViewModelAssembly.h"
+#import "LMSSearchListViewController.h"
+#import "TyphoonStoryboard.h"
 
 
 @implementation LMSViewControllerAssembly {
@@ -15,7 +17,12 @@
 
 - (TyphoonDefinition *)rootViewController {
     return [TyphoonDefinition withClass:[LMSRootViewController class] configuration:^(TyphoonDefinition *definition) {
+    }];
+}
 
+- (TyphoonDefinition *)searchListViewController {
+    return [TyphoonDefinition withClass:[LMSSearchListViewController class] configuration:^(TyphoonDefinition *definition) {
+        [definition injectProperty:@selector(viewModel) with:self.viewModelAssembly.searchListViewModel];
     }];
 }
 
