@@ -1,0 +1,5 @@
+pod 'Typhoon', '~> 3.4'
+pod 'ReactiveCocoa', '~> 2.4'
+pod 'AFNetworking', '~> 2.5'
+pod 'AFNetworking-RACExtensions', '~> 0.1'
+pod 'Realm', '~> 0.96'
