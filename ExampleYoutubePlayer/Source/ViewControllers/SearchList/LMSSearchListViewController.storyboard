@@ -14,35 +14,52 @@
                         <viewControllerLayoutGuide type="bottom" id="USZ-h8-rkH"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="sFb-RO-YKr">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Tdl-0i-xrh">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <searchBar key="tableFooterView" contentMode="redraw" id="19o-qT-eax">
-                                    <rect key="frame" x="0.0" y="64" width="600" height="44"/>
-                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                    <animations/>
-                                    <textInputTraits key="textInputTraits"/>
-                                </searchBar>
                             </tableView>
+                            <searchBar contentMode="redraw" placeholder="Search video" translatesAutoresizingMaskIntoConstraints="NO" id="19o-qT-eax">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="aDE-bV-wbv"/>
+                                </constraints>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <activityIndicatorView opaque="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="tuF-NN-DYs">
+                                <rect key="frame" x="0.0" y="258" width="600" height="20"/>
+                                <animations/>
+                            </activityIndicatorView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="tuF-NN-DYs" firstAttribute="centerY" secondItem="sFb-RO-YKr" secondAttribute="centerY" id="10o-cv-usX"/>
+                            <constraint firstAttribute="trailing" secondItem="19o-qT-eax" secondAttribute="trailing" id="1Jy-ce-GRw"/>
                             <constraint firstAttribute="trailing" secondItem="Tdl-0i-xrh" secondAttribute="trailing" id="3H3-rm-zV6"/>
                             <constraint firstItem="Tdl-0i-xrh" firstAttribute="leading" secondItem="sFb-RO-YKr" secondAttribute="leading" id="8pP-jE-cPJ"/>
+                            <constraint firstItem="tuF-NN-DYs" firstAttribute="centerX" secondItem="sFb-RO-YKr" secondAttribute="centerX" id="8vq-mi-jTE"/>
                             <constraint firstItem="Tdl-0i-xrh" firstAttribute="top" secondItem="sFb-RO-YKr" secondAttribute="top" id="St7-89-w1z"/>
                             <constraint firstItem="USZ-h8-rkH" firstAttribute="top" secondItem="Tdl-0i-xrh" secondAttribute="bottom" id="bqS-vi-40y"/>
+                            <constraint firstItem="19o-qT-eax" firstAttribute="leading" secondItem="sFb-RO-YKr" secondAttribute="leading" id="wb9-wi-seU"/>
+                            <constraint firstItem="19o-qT-eax" firstAttribute="top" secondItem="GMd-dj-Txp" secondAttribute="bottom" id="ytp-bl-Xji"/>
                         </constraints>
                     </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <navigationItem key="navigationItem" title="Search video" id="dDS-yt-dkA"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="typhoonKey" value="searchListViewController"/>
                     </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="loadIndicatorView" destination="tuF-NN-DYs" id="fw3-1U-lfe"/>
+                        <outlet property="searchBar" destination="19o-qT-eax" id="eeL-M6-w6H"/>
+                        <outlet property="tableView" destination="Tdl-0i-xrh" id="zYs-Ff-Nhz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ay8-Am-kZz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

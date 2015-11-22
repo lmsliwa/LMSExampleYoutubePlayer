@@ -1,5 +1,6 @@
 {
-  "network" : {
-    "baseURL" : "NSURL(https:youtube.com)"
+  "youtube" : {
+    "apiKey" : "AIzaSyD-VyrV-txfwzNjkexEyoOoxzif2aiM4Ow",
+    "baseURL" : "NSURL(https://www.googleapis.com/youtube/v3/)"
   }
 }

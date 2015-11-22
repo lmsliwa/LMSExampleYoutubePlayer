@@ -32,7 +32,12 @@ PODS:
     - ReactiveCocoa/Core
   - Realm (0.96.2):
     - Realm/Headers (= 0.96.2)
+  - Realm+JSON (0.2.11):
+    - Realm (~> 0.95)
   - Realm/Headers (0.96.2)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
   - Typhoon (3.4.3):
     - Typhoon/no-arc (= 3.4.3)
   - Typhoon/no-arc (3.4.3)
@@ -42,6 +47,8 @@ DEPENDENCIES:
   - AFNetworking-RACExtensions (~> 0.1)
   - ReactiveCocoa (~> 2.4)
   - Realm (~> 0.96)
+  - Realm+JSON (~> 0.2)
+  - SDWebImage (~> 3.0)
   - Typhoon (~> 3.4)
 
 SPEC CHECKSUMS:
@@ -49,6 +56,8 @@ SPEC CHECKSUMS:
   AFNetworking-RACExtensions: a043c6b492fa892395ceb9d20bc4c94e96e08a57
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
   Realm: 3ce8448151c571e90b85002d984d7f93f54fc8a3
+  Realm+JSON: dedc9ca5062b239c80d5bd779efe8aa7c1fdeef7
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
   Typhoon: 382b918b31d5d19a82922448af65f01f08102dc6
 
 COCOAPODS: 0.39.0.rc.1

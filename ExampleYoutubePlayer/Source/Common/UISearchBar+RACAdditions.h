@@ -3,8 +3,11 @@
 // Copyright (c) 2015 Łukasz Śliwa. All rights reserved.
 //
 
+@import UIKit;
 #import <Foundation/Foundation.h>
-#import "LMSYoutubeAPIProtocol.h"
 
-@protocol LMSDataClientSupportedProtocols <NSObject, LMSYoutubeAPIProtocol>
+@class RACSignal;
+
+@interface UISearchBar (RACAdditions)
+- (RACSignal *)rac_textSignal;
 @end

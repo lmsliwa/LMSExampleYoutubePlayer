@@ -15,6 +15,7 @@
 - (TyphoonDefinition *)searchListViewModel {
     return [TyphoonDefinition withClass:[LMSSearchListViewModel class] configuration:^(TyphoonDefinition *definition) {
         [definition injectProperty:@selector(dataClient) with:self.dataClientAssembly.dataClient];
+        [definition performAfterInjections:@selector(injectionsCompleted)];
     }];
 }
 

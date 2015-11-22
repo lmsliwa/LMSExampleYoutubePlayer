@@ -9,8 +9,12 @@
 @class LMSSearchListViewModel;
 
 
-@interface LMSSearchListViewController : UIViewController
+@interface LMSSearchListViewController : UIViewController <UITableViewDelegate>
 
 @property (nonatomic, strong) LMSSearchListViewModel *viewModel;
+
+@property (nonatomic, weak) IBOutlet UITableView *tableView;
+@property (nonatomic, weak) IBOutlet UISearchBar *searchBar;
+@property (nonatomic, weak) IBOutlet UIActivityIndicatorView *loadIndicatorView;
 
 @end

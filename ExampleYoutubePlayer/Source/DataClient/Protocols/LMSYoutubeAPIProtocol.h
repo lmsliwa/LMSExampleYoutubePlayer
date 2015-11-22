@@ -5,11 +5,10 @@
 
 #import <Foundation/Foundation.h>
 
-@class AFHTTPSessionManager;
+@class RACSignal;
 
+@protocol LMSYoutubeAPIProtocol <NSObject>
 
-@interface LMSNetworkBackend : NSObject
-
-@property (nonatomic, strong) AFHTTPSessionManager *sessionManager;
+- (RACSignal *)searchVideoForQuery:(NSString *)query;
 
 @end
